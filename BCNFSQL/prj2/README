@@ -1,0 +1,54 @@
+CMPUT 291 Mini Project 2
+
+Group Members: Julian Stys, Kyle Fujishige, Alex Li
+
+-----------
+Purpose
+----------
+The purpose of these modules is to solve the problem described in the Mini-Project 2 description
+
+-----------
+Modules
+-----------
+
+There are 4 modules in this archive:
+
+1. project2.py
+- Main module
+- Should be run directly from command line
+- Responsible for primary user interface, including inputting filename and selecting the below 3 options
+
+
+2. bcnf_normalization.py
+- Supporting module
+- Used by project2.py
+- Responsible for BCNF decomposition, which includes:
+	- decomposing a schema based on BCNF algorithm discussed in class
+	- stating whether or not the decomposition is dependency preserving
+	- creating new entries in OutputRelationSchema for each decomposed FD
+	- creating new tables for each decomposed FD
+
+3. equivalence.py
+- Supporting module
+- Used by project2.py
+- Responsible for testing the equivalence of 2 sets of FDs in the InputRelationSchema table, and reporting if they are functionally equivalent
+
+4. attributeClosure.py
+- Supporting module
+- Used by project2.py
+- Responsible for the attribute closure functionality
+	- User enters FD schema in InputRelationSchema table, and attributes
+	- Computes the attribute closure
+
+For more detail on each module, see the comments in each respective module file
+
+---------
+Notes
+---------
+- These modules assume that the user is using python3 when running the scripts
+- Call the project2.py module directly
+- Assumed that the database the user enters is in the same directory as project2.py, and that all modules are in same directory
+- Assumes that the user runs project2.py from the archive folder
+- See the documentation for more information
+
+
