@@ -1,0 +1,77 @@
+1C4RJ|front loader|2005-11-27 01:13:16
+1C4RJ|front loader|2008-10-18 00:23:32
+1C4RJ|front loader|2009-11-12 04:28:56
+1C4RJ|front loader|2013-08-01 04:10:37
+1C4RJ|front loader|2017-05-07 14:09:20
+1D4HR|roll-off|2009-04-25 15:04:12
+1F25D|front loader|2001-06-11 08:06:40
+1FAHP|roll-off|2011-06-13 12:12:45
+1FAHP|roll-off|2013-12-07 04:12:14
+1FD0W|garbage bin collector|2011-04-13 13:25:27
+1FD0W|garbage bin collector|2015-02-21 22:12:27
+1FD0W|garbage bin collector|2017-03-14 08:47:27
+1FD0W|garbage bin collector|2018-06-01 06:36:27
+1FTRW|front loader|2008-06-18 13:06:43
+1FV6J|roll-off|2005-07-05 13:55:34
+1FV6J|roll-off|2010-04-23 09:22:28
+1FV6J|roll-off|2013-10-30 23:07:51
+1FV6J|roll-off|2014-03-18 17:47:09
+1FV6J|roll-off|2015-03-25 15:18:14
+1G4HR|roll-off|2008-12-21 06:36:27
+1G4HR|roll-off|2013-02-25 08:47:27
+1G4HR|roll-off|2014-02-21 22:12:27
+1G4HR|roll-off|2018-04-13 13:25:27
+1G4HR|roll-off|2018-12-06 14:28:27
+1G8AZ|garbage bin collector|2016-12-07 18:12:29
+1HTMM|garbage bin collector|2009-06-08 17:47:08
+1HTNN|garbage bin collector|2016-01-28 09:30:52
+1ZVBP|roll-off|2010-05-02 06:05:28
+2FDJF|roll-off|2016-12-10 21:12:25
+2FDKF|front loader|2000-03-18 09:03:04
+2G1WF|garbage bin collector|2001-06-19 10:06:53
+3A8FY|front loader|2009-01-08 03:30:11
+3A8FY|front loader|2009-10-07 12:58:33
+3A8FY|front loader|2010-01-19 11:39:37
+3A8FY|front loader|2016-10-14 11:53:16
+3A8FY|front loader|2017-01-20 04:39:50
+3C8FY|roll-off|2005-12-02 12:12:05
+3VWSE|front loader|2001-07-04 20:07:13
+3WKDD|front loader|2016-04-29 02:04:22
+4T1BE|front loader|2011-08-30 19:19:46
+9BWBT|garbage bin collector|2014-01-12 15:05:36
+9BWBT|garbage bin collector|2017-02-25 08:26:06
+9BWBT|garbage bin collector|2018-11-24 11:34:27
+JH4DA|roll-off|2006-10-24 11:10:56
+JH4KA|roll-off|2002-08-29 19:08:38
+JHMSZ|garbage bin collector|2005-07-12 11:07:49
+JTHCL|front loader|2011-12-21 16:44:27
+JTHCL|front loader|2012-03-21 17:06:27
+JTHCL|front loader|2018-06-25 13:19:27
+KM8SC|garbage bin collector|2014-05-05 19:05:21
+SCBCR|front loader|2005-04-01 11:04:53
+VF3BA|garbage bin collector|2014-04-21 22:12:27
+VF3BA|garbage bin collector|2018-06-25 13:25:27
+WAUAC|roll-off|2001-02-16 17:02:55
+WP0CB|garbage bin collector|2009-01-30 06:38:52
+WP0CB|garbage bin collector|2012-10-01 10:09:02
+WP0CB|garbage bin collector|2013-12-27 23:25:52
+WP0CB|garbage bin collector|2015-06-17 04:20:34
+WP0CB|garbage bin collector|2018-01-06 11:04:01
+WP1AB|front loader|2013-10-21 15:10:46
+WVWUK|front loader|2009-06-14 08:47:27
+WVWUK|front loader|2012-12-21 06:36:27
+WVWUK|front loader|2018-12-06 14:28:27
+ZAMGJ|roll-off|2008-09-10 13:09:12
+
+
+1C4RJ|1375.41577546299
+1FAHP|907.666307870299
+1FD0W|443.909027778078
+1FV6J|371.896585647948
+1G4HR|237.043750000186
+3A8FY|97.6990046296269
+9BWBT|637.130798610859
+JTHCL|2286.84236111119
+VF3BA|1525.63402777771
+WP0CB|934.280173610896
+WVWUK|2176.3277777778

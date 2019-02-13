@@ -1,0 +1,111 @@
+Script started on Mon 26 Feb 2018 02:34:43 PM MST
+]0;kyle@kyle-HP-ProBook-6565b: ~/assignments/CMPUT291/a2[01;32mkyle@kyle-HP-ProBook-6565b[00m:[01;34m~/assignments/CMPUT291/a2[00m$ sqlite3
+SQLite version 3.11.0 2016-02-15 17:29:24
+Enter ".help" for usage hints.
+Connected to a [1mtransient in-memory database[0m.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .r[Kj[Kheaders on
+sqlite> .read a2-tables.sql 
+
+sqlite> .read a2-data.sql 
+Data inserted successfully
+
+sqlite> .read a2-queries.sql
+Question 1 -fujishig
+local_contact
+(904) 694-9532
+(583) 636-4313
+(209) 164-7895
+
+Question 2 -fujishig
+customer_name|contact_info|Account manager
+Rhianna Wilkinson|(201) 874-4399|Dan Brown
+Reese Thornton|(745) 516-3060|Charlotte Vazquez
+Areli Lowery|(706) 692-2734|Carina Herrera
+Lilyana Gaines|(425) 810-3987|Cameron Baxter
+Tomas Young|(581) 306-2155|Kamron Ray
+Josue Avila|(401) 172-5651|Elliott Knapp
+Julie Herrera|(359) 306-2012|Dan Brown
+Jamarion Kane|(998) 516-7925|Greta Garcia
+Mollie Ray|(940) 530-6245|Rishi Fuentes
+Alivia Crane|(893) 347-8760|Gretchen Garza
+Brodie Hobbs|(796) 508-6104|Nathaly Valenzuela
+Ronald Sanchez|(473) 491-9025|Dan Brown
+Itzel Guerrero|(287) 679-5399|Braden Odonnell
+Ahmad Cummings|(941) 357-9021|Dan Brown
+
+Question 3 -fujishig
+customer_name
+Reese Thornton
+Sidney Preston
+Tomas Young
+
+Question 4 -fujishig
+Account Type|Number of Services|Profit
+major accounts manager|26|42870.16
+medium accounts manager|6|9167.75
+small accounts manager|30|50783.9
+
+Question 5 -fujishig
+name
+Trevor Stafford
+
+Question 6 -fujishig
+container_id
+2G1FP3
+4CDR5B
+
+Question 7 -fujishig.
+container_id
+1FAFP5
+1FDEE1
+1FTNX2
+1G4AL7
+1GCEK1
+1GCESB
+1GDZ7U
+1GKDT1
+1GT5K0
+1GTCT1
+2FWBA2
+2GTHK3
+2J4FY2
+3B6WF3
+3C3ES4
+3D7KS2
+3GTP1T
+4S2CG5
+4S3BH6
+4S4BRE
+JF1AX4
+JH2SC6
+JH4KB2
+JHLRE3
+JS1GV7
+JTDBT9
+JTJBM7
+KL7TN5
+WA1VGA
+WBAAM5
+WBAFR1
+WDDHF2
+
+Question 8 -fujishig
+driver_id
+12345
+77131
+88569
+
+Question 9 -fujishig
+
+Question 10 -fujishig
+truck_type|Minimum|Maximum|Average
+front loader|97.6990046296269|2286.84236111119|1484.0712297454
+garbage bin collector|443.909027778078|1525.63402777771|885.238506944384
+roll-off|237.043750000186|907.666307870299|505.535547839478
+
+sqlite> .quit
+]0;kyle@kyle-HP-ProBook-6565b: ~/assignments/CMPUT291/a2[01;32mkyle@kyle-HP-ProBook-6565b[00m:[01;34m~/assignments/CMPUT291/a2[00m$ exit
+exit
+
+Script done on Mon 26 Feb 2018 02:35:11 PM MST
