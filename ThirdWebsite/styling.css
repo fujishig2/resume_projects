@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #3abc7c; /* green background */
+  color: white; /* white text color */
+}
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 100px;
+}
+.body h2 {
+	font-size: 20px;
+}
+.body h3 {
+	font-size: 50px;
+}
+
+.body {
+	padding: 5px;
+	text-align: center;
+	background: teal;
+	color: black;
+}
+
+.next {
+	padding: 1px;
+	text-align: center;
+	background: teal;
+}
+
+.next h1 {
+	font-size:20px;
+	color: red;
+}

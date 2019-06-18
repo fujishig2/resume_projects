@@ -13,6 +13,9 @@ body {
 .header h1 {
   font-size: 100px;
 }
+.header h2 {
+  font-size: 40px;
+}
 
 /* Style the top navigation bar */
 .navbar {
