@@ -15,11 +15,11 @@ function f1(N){
 
 function f2(N) {
 	if (N < 0) {
+		document.getElementById("nextPage").style.display = "inline";
 		return;
 	}
 	setTimeout(function() {
 			f2(N-1);
-			document.getElementById("nextPage").style.display = "inline";
 		}, 1000);
 	document.getElementById("count").innerHTML = N;
 }
