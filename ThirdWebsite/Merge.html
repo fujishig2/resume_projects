@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Merge Sort</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+	<div class="navbar">
+		<a href="Home.html">Home</a>
+		<a href="Fib.html">Fibonacci</a>
+		<a href="Count.html">Countdown</a>
+		<a href="Calc.html">Calculator</a>
+		<a href="Merge.html">Merge Sort</a>
+	</div>
+	<script src="script.js"></script>
+	<div class = "header">
+  	<h1>Merge Sort</h1>
+		
+	</div>
+
+	<div class = "body">
+		<h3>Enter a sequence of numbers to be sorted</h3>
+		<input type="text" id="sortinput">
+		<form name="frm1" action="" method ="GET">
+			<input id= "getSort" type="button" value="Sort!" 
+				onclick = "mergeSort(document.getElementById('sortinput').value)">
+			<h2><p id="sorted"></p></h2>
+		</form>
+	</div>
+	<script>
+	var input = document.getElementById("sortinput");
+	input.addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+			event.preventDefault();
+			document.getElementById("getSort").click();
+		}
+	});
+	</script>
+</body>
+</html>

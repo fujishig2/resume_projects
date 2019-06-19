@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fibonacci</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+	<div class="navbar">
+		<a href="Home.html">Home</a>
+		<a href="Fib.html">Fibonacci</a>
+		<a href="Count.html">Countdown</a>
+		<a href="Calc.html">Calculator</a>
+		<a href="Merge.html">Merge Sort</a>
+	</div>
+
+	<div class = "header">
+  	<h1>Fibonacci</h1>
+		<script src="script.js"></script>
+	</div>
+
+	<div class = "body">
+		<h3>Enter a number to get the Fibonacci sequence</h3>
+		<input type="text" id="finput">
+		<form name="frm1" action="" method ="GET">
+			<input id= "getFib" type="button" value="Get Fibonacci" 
+				onclick = "fibonacci(document.getElementById('finput').value)">
+			<h2><p id="fib"></p></h2>
+		</form>
+	</div>
+	<script>
+	var input = document.getElementById("finput");
+	input.addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+			event.preventDefault();
+			document.getElementById("getFib").click();
+		}
+	});
+	</script>
+</body>
+</html>

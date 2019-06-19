@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+	<div class="navbar">
+		<a href="Home.html">Home</a>
+		<a href="Fib.html">Fibonacci</a>
+		<a href="Count.html">Countdown</a>
+		<a href="Calc.html">Calculator</a>
+		<a href="Merge.html">Merge Sort</a>
+	</div>
+
+	<div class = "header">
+  	<h1>Calculator</h1>
+		<script src="script.js"></script>
+	</div>
+
+	<div class = "body">
+		<h3>Input an expression</h3>
+		<input type="text" id="calcInput"><P>
+		<form> 
+			<input type="button" value="C" onclick ="buttonClear()">
+			<input type="button" value="<-" onclick ="buttonBack()">
+			<input type="button" value="(" onclick ="buttonPress('(')">
+			<input type="button" value=")" onclick ="buttonPress(')')">
+		</form>
+		<form>
+			<input type="button" value="1" onclick ="buttonPress('1')">
+			<input type="button" value="2" onclick ="buttonPress('2')">
+			<input type="button" value="3" onclick ="buttonPress('3')">
+			<input type="button" value="+" onclick ="buttonPress('+')">
+		</form>
+		<form>
+			<input type="button" value="4" onclick ="buttonPress('4')">
+			<input type="button" value="5" onclick ="buttonPress('5')">
+			<input type="button" value="6" onclick ="buttonPress('6')">
+			<input type="button" value="-" onclick ="buttonPress('-')">
+		</form>
+		<form>
+			<input type="button" value="7" onclick ="buttonPress('7')">
+			<input type="button" value="8" onclick ="buttonPress('8')">
+			<input type="button" value="9" onclick ="buttonPress('9')">
+			<input type="button" value="*" onclick ="buttonPress('*')">
+		</form>
+		<form>
+			<input type="button" value="0" onclick ="buttonPress('0')">
+			<input type="button" value="." onclick ="buttonPress('.')">
+			<input type="button" value="/" onclick ="buttonPress('/')">
+			<input id = "=" type="button" value="=" onclick ="buttonSubmit()">
+		</form>
+	</div>
+
+	<script>
+	var input = document.getElementById("calcInput");
+	input.addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+		 event.preventDefault();
+		 document.getElementById("=").click();
+		}
+	});
+	</script>
+</body>
+</html>

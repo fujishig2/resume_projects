@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Countdown</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+	<div class="navbar">
+		<a href="Home.html">Home</a>
+		<a href="Fib.html">Fibonacci</a>
+		<a href="Count.html">Countdown</a>
+		<a href="Calc.html">Calculator</a>
+		<a href="Merge.html">Merge Sort</a>
+	</div>
+
+	<div class = "header">
+  	<h1>Countdown</h1>
+		<script src="script.js"></script>
+	</div>
+
+	<div class = "body">
+		<h3>Enter a number to begin a countdown sequence</h3>
+		<input type="text" id="countinput">
+		<form name="frm1" action="" method ="GET">
+			<input id="countClick" type="button" value="Begin Countdown" 
+				onclick = "countdown(document.getElementById('countinput').value)">
+			<h2><p id="count"></p></h2>
+		</form>
+	</div>
+	<script>
+	var input = document.getElementById("countinput");
+	input.addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+			event.preventDefault();
+			document.getElementById("countClick").click();
+		}
+	});
+	</script>
+</body>
+</html>
